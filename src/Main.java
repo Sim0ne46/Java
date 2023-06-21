@@ -13,5 +13,11 @@ public class Main {
         System.out.println(a.getManufactures());
         System.out.println(a.getYear());
 
+        a.setModel("500");
+        a.setManufactures("Fiat");
+        a.setYear(2019);
+
+        System.out.println(a.toString());
+
     }
 }
