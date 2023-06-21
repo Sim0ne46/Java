@@ -16,8 +16,8 @@ public class Main {
         System.out.println("La velocità della Vespa è :"+Vespa.getSpeed());
         System.out.println("La velocità della Panda è :"+Panda.getSpeed());
 
-        System.out.println("La Vespa ha :"+Vespa.getNumbersOfTires()+ " ruote");
-        System.out.println("La Panda ha :"+Panda.getNumbersOfTires()+ " ruote");
+        System.out.println("La Vespa ha: "+Vespa.getNumbersOfTires()+ " ruote");
+        System.out.println("La Panda ha: "+Panda.getNumbersOfTires()+ " ruote");
 
     }
 }
